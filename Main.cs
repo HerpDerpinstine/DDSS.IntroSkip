@@ -66,7 +66,7 @@ namespace DDSS_IntroSkip
             if (modHelper == null)
                 return;
 
-            Type modFilterType = modHelper.MelonAssembly.Assembly.GetType("DDSS_ModHelper.Utils.ModFilterHandler");
+            Type modFilterType = modHelper.MelonAssembly.Assembly.GetType("DDSS_ModHelper.Utils.RequirementFilterHandler");
             if (modFilterType == null) 
                 return;
 
